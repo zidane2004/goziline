@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+.about {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.ceo {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.ceo img {
+    width: 50%;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.ceo p {
+    font-family: "comic sans ms";
+    font-weight:800 ;
+    font-size: 15px;
+    text-align: center;
+}
+
+.services {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logistics {
+    width: 50%;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.section ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    width: 10000000000000px;
+}
